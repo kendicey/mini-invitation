@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Invitation Project</title>
+    <title>PureVibe</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
     <script id="invitation-template" type="text/x-handlebars-template">
-        <p>Hi {{recipient}}</p>
-        <h2>Housewarming Party</h2>
-        <p>{{host}} is throwing open the doors and popping the corks for</p>
-        <h3>A Sizzling Housewarming Bash!</h3>
-        <p>Come raise a toast and help us turn our new house into a home!</p>
+        <p>Hello {{recipient}},</p>
+        <h2>You're Invited: Product Launch Celebration!</h2>
+        <p>{{host}} is thrilled to invite you to the unveiling of our newest supplement—crafted for your well-being and happiness!</p>
+        <h3>Join Us for Good Vibes!</h3>
         <ul>
             {{#each eventDetails}}
                 <li>{{this}}</li>
             {{/each}}
         </ul>
-        <p>Expect tasty treats, cool drinks, and warm vibes! Your presence will be the secret ingredient to our housewarming recipe.</p>
-        <p>Don't miss the fun! Mark your calendar and join the housewarming fiesta!</p>
+        <p>Expect delightful treats and a welcoming atmosphere. Your presence will make it even more special!</p>
+        <p>Save the date and join us for a joyful evening!</p>
         <p>Cheers,</p>
-        <p>{{host}}</p>
+        <p>{{host}}</p>        
     </script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="see-invitation">Click to see invitation!</div>
+    <img src="assets/logo.svg" alt="Logo" id="logo">
+    <div id="see-invitation">▼ Click to see invitation!</div>
     <div id="invitation"></div>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous" type="text/javascript"></script>
     <script src="/scripts/jQuery.js" type="text/javascript"></script>
