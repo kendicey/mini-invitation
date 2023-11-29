@@ -26,6 +26,27 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1000;
 }
 
+#weather-icon {
+    transition: transform 0.3s ease;
+}
+
+#weather-icon:hover {
+    transform: scale(1.1);
+}
+
+#weather {
+    background-color: #f15e24;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+#weather a {
+    text-decoration: none;
+    color: #fff;
+}
+
 #invitation {
     display: none;
     font-size: 0.9rem;

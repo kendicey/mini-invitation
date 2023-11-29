@@ -4,7 +4,7 @@ const template = Handlebars.compile(source);
 
 const context = {
     recipient: 'Alex',
-    host: 'Kendice',
+    host: 'PureVibe',
     eventDetails: [
         "Date: 31th December, 2023", 
         "Time: 12 noon", 
